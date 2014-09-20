@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tristen/geojson-to-image.png?Zeqckz55oF1LjKHEqHT7)](https://travis-ci.org/tristen/geojson-to-image)
 
-Pass GeoJSON and return an image from [Mapbox Static API](https://www.mapbox.com/developers/api/static/). Currently, only markers are supported. 
+Pass GeoJSON and get an image in return from [Mapbox Static API](https://www.mapbox.com/developers/api/static/). Currently, only markers are supported.
 
 ### Usage
 
