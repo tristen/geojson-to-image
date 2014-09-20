@@ -62,8 +62,6 @@ var geojson = { "type": "FeatureCollection",
         'height': 1024
     });
 
-    console.log(img);
-
 test('Image without GeoJSON', function(t) {
     t.plan(2);
     request(geojsonToImage({
