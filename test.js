@@ -51,17 +51,6 @@ var geojson = { "type": "FeatureCollection",
     }
 ]};
 
-    var img = geojsonToImage({
-        'mapID': mapid,
-        'accessToken': token
-    }, geojson, {
-        'coordinates': [74, 40],
-        'zoom': 4,
-        'quality': 'jpg80',
-        'width': 1024,
-        'height': 1024
-    });
-
 test('Image without GeoJSON', function(t) {
     t.plan(2);
     request(geojsonToImage({
