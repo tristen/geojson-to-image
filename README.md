@@ -1,13 +1,13 @@
 ## GeoJSON to Image
 
-[![Build Status](https://travis-ci.org/tristen/geojsonToImage.png?Zeqckz55oF1LjKHEqHT7)](https://travis-ci.org/tristen/geojsonToImage)
+[![Build Status](https://travis-ci.org/tristen/geojson-to-image.png?Zeqckz55oF1LjKHEqHT7)](https://travis-ci.org/tristen/geojson-to-image)
 
 Pass GeoJSON and return an image from [Mapbox Static API](https://www.mapbox.com/developers/api/static/). Currently, only markers are supported. 
 
 ### Usage
 
 ``` js
-var geojsonToImage = require('geojsonToImage');
+var geojsonToImage = require('geojson-to-image');
 
 var geojson = {
     "type": "FeatureCollection",

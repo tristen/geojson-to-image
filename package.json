@@ -1,5 +1,5 @@
 {
-  "name": "geojsonToImage",
+  "name": "geojson-to-image",
   "version": "0.0.0",
   "description": "Pass GeoJSON and return an image from Mapbox Static API",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tristen/geojsonToImage.git"
+    "url": "git://github.com/tristen/geojson-to-image.git"
   },
   "keywords": [
     "Mapbox",
@@ -18,9 +18,9 @@
   "author": "tristen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tristen/geojsonToImage/issues"
+    "url": "https://github.com/tristen/geojson-to-image/issues"
   },
-  "homepage": "https://github.com/tristen/geojsonToImage",
+  "homepage": "https://github.com/tristen/geojson-to-image",
   "devDependencies": {
     "request": "^2.44.0",
     "tape": "^3.0.0"
